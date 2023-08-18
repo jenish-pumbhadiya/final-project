@@ -1,0 +1,22 @@
+{
+  "signupdata": [
+    {
+      "name": "jenish pumbhadiya",
+      "email": "jenishpro75@gmail.com",
+      "password": "487548",
+      "id": 1
+    },
+    {
+      "name": "vishal lathiya",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "jay rathod",
+      "email": "jenishpro75@gmail.com",
+      "password": "wwasadas",
+      "id": 3
+    }
+  ]
+}
