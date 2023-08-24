@@ -2,9 +2,6 @@ import nav from "../components/nav.js";
 
 document.getElementById("navbar").innerHTML=nav();
 
-import nav from "../components/header.js";
-
-document.getElementById("navbar").innerHTML=nav();
 
 let products=[];
 
@@ -56,20 +53,20 @@ const product =(data)=>{
         btn1.innerHTML="Buy Now"
         btn1.style.padding="10px 30px"
         btn1.style.borderRadius="10px"
-        btn1.style.background="linear-gradient(45deg, rgba(93,98,13,1) 7%, rgba(53,97,53,1) 49%, rgba(13,95,98,1) 95%)"
+        
 
 
         let btn2=document.createElement("button")
         btn2.innerHTML="Add to Cart"
         btn2.style.padding="10px 30px"
         btn2.style.borderRadius="10px"
-        btn2.style.background="linear-gradient(45deg, rgba(93,98,13,1) 7%, rgba(53,97,53,1) 49%, rgba(13,95,98,1) 95%)"
+        
 
 
         let div = document.createElement("div")
         div.style.borderRadius="10px"
         div.style.padding="10px"
-        div.style.background="linear-gradient(45deg, rgba(93,98,13,1) 7%, rgba(53,97,53,1) 49%, rgba(13,95,98,1) 95%)"
+        
 
         
         div.append(img, title, price, category, star, btn1 , btn2);

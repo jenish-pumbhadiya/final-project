@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 .container{
     max-width: 1140px;
     margin: auto;
@@ -54,4 +57,12 @@ form #submit{
     padding: 10px 30px;
     border: none;
     border-radius: 8px;
+}
+#productpage{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#productpage img{
+    width: 200px;
+    height: 200px;
 }
